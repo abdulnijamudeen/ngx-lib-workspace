@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
-import { NgxStyleComponent } from './ngx-style.component';
+import { WidthDirective } from './directives/w/width/width.directive';
 
-
+const STYLE_DIRECTIVE = [
+  WidthDirective
+];
 
 @NgModule({
   declarations: [
-    NgxStyleComponent
-  ],
-  imports: [
+    ...STYLE_DIRECTIVE
   ],
   exports: [
-    NgxStyleComponent
+    ...STYLE_DIRECTIVE
   ]
 })
 export class NgxStyleModule { }
