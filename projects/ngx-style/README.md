@@ -42,3 +42,8 @@ export class AppModule { }
 </div>
 ```
 
+## CSS Directives
+
+| CSS Properties  |Directives |
+| --------------- |:---------:|
+| width           | w         |
