@@ -44,6 +44,19 @@ export class AppModule { }
 
 ## CSS Directives
 
-| CSS Properties  |Directives |
-| --------------- |:---------:|
-| width           | w         |
+| CSS Properties      | Directives|
+| ---------------     |:---------:|
+| height              | h         |
+| margin              | m         |
+| margin-block        | my        |
+| margin-block-end    | mye       |
+| margin-block-start  | mys       |
+| margin-bottom       | mb        |
+| margin-inline       | mx        |
+| margin-inline-end   | mxe       |
+| margin-inline-start | mxs       |
+| margin-left         | ml        |
+| margin-right        | mr        |
+| margin-top          | mt        |
+| padding             | p         |
+| width               | w         |

@@ -1,11 +1,25 @@
 {
   "name": "ngx-style",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "peerDependencies": {
     "@angular/common": "^14.0.0",
     "@angular/core": "^14.0.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
-  }
+  },
+  "keywords": [
+    "css",
+    "style",
+    "angular",
+    "ngx-style",
+    "ngx style",
+    "directives",
+    "css directives",
+    "angular directives",
+    "inline style",
+    "dom manipulation",
+    "css spaces",
+    "scpacing"
+  ]
 }
