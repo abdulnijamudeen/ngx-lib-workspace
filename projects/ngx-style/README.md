@@ -1,24 +1,44 @@
 # NgxStyle
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
+NgxStyle is an Angular component library that gives you CSS directives for your application
 
-## Code scaffolding
+## Install
 
-Run `ng generate component component-name --project ngx-style` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ngx-style`.
-> Note: Don't forget to add `--project ngx-style` or else it will be added to the default project in your `angular.json` file. 
+```
+npm install ngx-style --save
+```
 
-## Build
+## Import
 
-Run `ng build ngx-style` to build the project. The build artifacts will be stored in the `dist/` directory.
+```typescript
+...
+import { NgxStyleModule } from 'ngx-style';
+...
 
-## Publishing
 
-After building your library with `ng build ngx-style`, go to the dist folder `cd dist/ngx-style` and run `npm publish`.
+@NgModule({
+  ...
+  imports: [
+    ...
+    NgxStyleModule,
+  ],
+  ...
+})
+export class AppModule { }
 
-## Running unit tests
+```
 
-Run `ng test ngx-style` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Usage
 
-## Further help
+```html
+<div w="10rem">
+  <p>content goes here.</p>
+</div>
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```html
+<div [w]="'20%'">
+  <p>content goes here.</p>
+</div>
+```
+
