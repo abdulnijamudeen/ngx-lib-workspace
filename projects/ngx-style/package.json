@@ -2,6 +2,10 @@
   "name": "ngx-style",
   "version": "0.0.4",
   "license": "MIT",
+  "author": {
+    "name": "Mohideen Nizamudeen",
+    "email": "abdulnijamudeen@gmail.com"
+  },
   "peerDependencies": {
     "@angular/common": "^14.0.0",
     "@angular/core": "^14.0.0"
