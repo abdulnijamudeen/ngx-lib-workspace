@@ -31,14 +31,26 @@ export class AppModule { }
 ## Usage
 
 ```html
-<div w="10rem">
+<div [w]="'20%'">
   <p>content goes here.</p>
 </div>
 ```
 
 ```html
-<div [w]="'20%'">
+<div w="50rem">
   <p>content goes here.</p>
+  <div [w]="'40%'" ml="50px">
+    <p>content goes here.</p>
+  </div>
+</div>
+```
+
+```html
+<div m="2rem 20% 32px auto">
+  <p>content goes here.</p>
+  <div ml="3em">
+    <p>content goes here.</p>
+  </div>
 </div>
 ```
 
@@ -71,6 +83,7 @@ export class AppModule { }
 | padding-top             | pt        |
 | width                   | w         |
 | z-index                 | zi        |
+
 
 ## License
 
