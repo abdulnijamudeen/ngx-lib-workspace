@@ -1,3 +1,14 @@
+import { ZIndexDirective } from './directives/z/z-index/z-index.directive';
+import { PaddingTopDirective } from './directives/p/padding-top/padding-top.directive';
+import { PaddingRightDirective } from './directives/p/padding-right/padding-right.directive';
+import { PaddingLeftDirective } from './directives/p/padding-left/padding-left.directive';
+import { PaddingInlineStartDirective } from './directives/p/padding-inline-start/padding-inline-start.directive';
+import { PaddingInlineEndDirective } from './directives/p/padding-inline-end/padding-inline-end.directive';
+import { PaddingInlineDirective } from './directives/p/padding-inline/padding-inline.directive';
+import { PaddingBottomDirective } from './directives/p/padding-bottom/padding-bottom.directive';
+import { PaddingBlockStartDirective } from './directives/p/padding-block-start/padding-block-start.directive';
+import { PaddingBlockEndDirective } from './directives/p/padding-block-end/padding-block-end.directive';
+import { PaddingBlockDirective } from './directives/p/padding-block/padding-block.directive';
 import { MarginTopDirective } from './directives/m/margin-top/margin-top.directive';
 import { MarginRightDirective } from './directives/m/margin-right/margin-right.directive';
 import { MarginLeftDirective } from './directives/m/margin-left/margin-left.directive';
@@ -28,7 +39,18 @@ const STYLE_DIRECTIVE = [
   MarginRightDirective,
   MarginTopDirective,
   PaddingDirective,
-  WidthDirective
+  PaddingBlockDirective,
+  PaddingBlockEndDirective,
+  PaddingBlockStartDirective,
+  PaddingBottomDirective,
+  PaddingInlineDirective,
+  PaddingInlineEndDirective,
+  PaddingInlineStartDirective,
+  PaddingLeftDirective,
+  PaddingRightDirective,
+  PaddingTopDirective,
+  WidthDirective,
+  ZIndexDirective
 ];
 
 @NgModule({

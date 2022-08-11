@@ -44,22 +44,33 @@ export class AppModule { }
 
 ## CSS Directives
 
-| CSS Properties      | Directives|
-| ---------------     |:---------:|
-| height              | h         |
-| margin              | m         |
-| margin-block        | my        |
-| margin-block-end    | mye       |
-| margin-block-start  | mys       |
-| margin-bottom       | mb        |
-| margin-inline       | mx        |
-| margin-inline-end   | mxe       |
-| margin-inline-start | mxs       |
-| margin-left         | ml        |
-| margin-right        | mr        |
-| margin-top          | mt        |
-| padding             | p         |
-| width               | w         |
+| CSS Properties          | Directives|
+| ---------------         |:---------:|
+| height                  | h         |
+| margin                  | m         |
+| margin-block            | my        |
+| margin-block-end        | mye       |
+| margin-block-start      | mys       |
+| margin-bottom           | mb        |
+| margin-inline           | mx        |
+| margin-inline-end       | mxe       |
+| margin-inline-start     | mxs       |
+| margin-left             | ml        |
+| margin-right            | mr        |
+| margin-top              | mt        |
+| padding                 | p         |
+| padding-block           | py        |
+| padding-block-end       | pye       |
+| padding-block-start     | pys       |
+| padding-bottom          | pb        |
+| padding-inline          | px        |
+| padding-inline-end      | pxe       |
+| padding-inline-start    | pxs       |
+| padding-left            | pl        |
+| padding-right           | pr        |
+| padding-top             | pt        |
+| width                   | w         |
+| z-index                 | zi        |
 
 ## License
 
