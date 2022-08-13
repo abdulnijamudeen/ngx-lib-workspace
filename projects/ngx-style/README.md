@@ -15,7 +15,6 @@ npm install ngx-style --save
 import { NgxStyleModule } from 'ngx-style';
 ...
 
-
 @NgModule({
   ...
   imports: [
@@ -58,6 +57,18 @@ export class AppModule { }
 
 | CSS Properties          | Directives|
 | ---------------         |:---------:|
+| flex                    | fx        |
+| flex-basis              | fxb       |
+| flex-direction          | fxd       |
+| flex-flow               | fxf       |
+| flex-grow               | fxg       |
+| flex-shrink             | fxs       |
+| flex-wrap               | fxw       |
+| font                    | fnt       |
+| font-family             | fntf      |
+| font-size               | fnts      |
+| font-style              | fntstl    |
+| font-weight             | fntw      |
 | height                  | h         |
 | margin                  | m         |
 | margin-block            | my        |

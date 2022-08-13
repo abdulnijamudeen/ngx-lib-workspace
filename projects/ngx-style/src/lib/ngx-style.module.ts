@@ -1,3 +1,15 @@
+import { FontWeightDirective } from './directives/f/font-weight/font-weight.directive';
+import { FontStyleDirective } from './directives/f/font-style/font-style.directive';
+import { FontSizeDirective } from './directives/f/font-size/font-size.directive';
+import { FontFamilyDirective } from './directives/f/font-family/font-family.directive';
+import { FontDirective } from './directives/f/font/font.directive';
+import { FlexWrapDirective } from './directives/f/flex-wrap/flex-wrap.directive';
+import { FlexShrinkDirective } from './directives/f/flex-shrink/flex-shrink.directive';
+import { FlexGrowDirective } from './directives/f/flex-grow/flex-grow.directive';
+import { FlexFlowDirective } from './directives/f/flex-flow/flex-flow.directive';
+import { FlexDirectionDirective } from './directives/f/flex-direction/flex-direction.directive';
+import { FlexBasisDirective } from './directives/f/flex-basis/flex-basis.directive';
+import { FlexDirective } from './directives/f/flex/flex.directive';
 import { ZIndexDirective } from './directives/z/z-index/z-index.directive';
 import { PaddingTopDirective } from './directives/p/padding-top/padding-top.directive';
 import { PaddingRightDirective } from './directives/p/padding-right/padding-right.directive';
@@ -26,6 +38,18 @@ import { WidthDirective } from './directives/w/width/width.directive';
 import { MarginInlineEndDirective } from './directives/m/margin-inline-end/margin-inline-end.directive';
 
 const STYLE_DIRECTIVE = [
+  FlexDirective,
+  FlexBasisDirective,
+  FlexDirectionDirective,
+  FlexFlowDirective,
+  FlexGrowDirective,
+  FlexShrinkDirective,
+  FlexWrapDirective,
+  FontDirective,
+  FontFamilyDirective,
+  FontSizeDirective,
+  FontStyleDirective,
+  FontWeightDirective,
   HeightDirective,
   MarginDirective,
   MarginBlockDirective,
