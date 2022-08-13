@@ -11,10 +11,10 @@ export class FlexShrinkDirective implements OnInit, OnChanges {
   constructor(private el: ElementRef) { }
 
   ngOnInit(): void {
-    (this.el.nativeElement as HTMLElement).style.width = this.fxs;
+    (this.el.nativeElement as HTMLElement).style.flexShrink = this.fxs;
   }
 
   ngOnChanges(changes: SimpleChanges): void {
-    (this.el.nativeElement as HTMLElement).style.width = changes['fxs'].currentValue;
+    (this.el.nativeElement as HTMLElement).style.flexShrink = changes['fxs'].currentValue;
   }
 }

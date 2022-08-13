@@ -1,3 +1,25 @@
+import { VerticalAlignDirective } from './directives/v/vertical-align/vertical-align.directive';
+import { MinWidthDirective } from './directives/m/min-width/min-width.directive';
+import { MinHeightDirective } from './directives/m/min-height/min-height.directive';
+import { MaxWidthDirective } from './directives/m/max-width/max-width.directive';
+import { MaxHeightDirective } from './directives/m/max-height/max-height.directive';
+import { CursorDirective } from './directives/c/cursor/cursor.directive';
+import { ColorDirective } from './directives/c/color/color.directive';
+import { TextShadowDirective } from './directives/t/text-shadow/text-shadow.directive';
+import { TextDecorationDirective } from './directives/t/text-decoration/text-decoration.directive';
+import { TextAlignDirective } from './directives/t/text-align/text-align.directive';
+import { PositionDirective } from './directives/p/position/position.directive';
+import { OverflowYDirective } from './directives/o/overflow-y/overflow-y.directive';
+import { OverflowXDirective } from './directives/o/overflow-x/overflow-x.directive';
+import { OverflowDirective } from './directives/o/overflow/overflow.directive';
+import { FloatDirective } from './directives/f/float/float.directive';
+import { WritingModeDirective } from './directives/w/writing-mode/writing-mode.directive';
+import { DisplayDirective } from './directives/d/display/display.directive';
+import { JustifySelfDirective } from './directives/j/justify-self/justify-self.directive';
+import { JustifyContentDirective } from './directives/j/justify-content/justify-content.directive';
+import { AlignSelfDirective } from './directives/a/align-self/align-self.directive';
+import { AlignItemsDirective } from './directives/a/align-items/align-items.directive';
+import { AlignContentDirective } from './directives/a/align-content/align-content.directive';
 import { FontWeightDirective } from './directives/f/font-weight/font-weight.directive';
 import { FontStyleDirective } from './directives/f/font-style/font-style.directive';
 import { FontSizeDirective } from './directives/f/font-size/font-size.directive';
@@ -36,8 +58,15 @@ import { HeightDirective } from './directives/h/height/height.directive';
 import { NgModule } from '@angular/core';
 import { WidthDirective } from './directives/w/width/width.directive';
 import { MarginInlineEndDirective } from './directives/m/margin-inline-end/margin-inline-end.directive';
+import { JustifyItemsDirective } from './directives/j/justify-items/justify-items.directive';
 
 const STYLE_DIRECTIVE = [
+  AlignContentDirective,
+  AlignItemsDirective,
+  AlignSelfDirective,
+  ColorDirective,
+  CursorDirective,
+  DisplayDirective,
   FlexDirective,
   FlexBasisDirective,
   FlexDirectionDirective,
@@ -45,12 +74,16 @@ const STYLE_DIRECTIVE = [
   FlexGrowDirective,
   FlexShrinkDirective,
   FlexWrapDirective,
+  FloatDirective,
   FontDirective,
   FontFamilyDirective,
   FontSizeDirective,
   FontStyleDirective,
   FontWeightDirective,
   HeightDirective,
+  JustifyContentDirective,
+  JustifyItemsDirective,
+  JustifySelfDirective,
   MarginDirective,
   MarginBlockDirective,
   MarginBlockEndDirective,
@@ -62,6 +95,13 @@ const STYLE_DIRECTIVE = [
   MarginLeftDirective,
   MarginRightDirective,
   MarginTopDirective,
+  MaxHeightDirective,
+  MaxWidthDirective,
+  MinHeightDirective,
+  MinWidthDirective,
+  OverflowDirective,
+  OverflowXDirective,
+  OverflowYDirective,
   PaddingDirective,
   PaddingBlockDirective,
   PaddingBlockEndDirective,
@@ -73,7 +113,13 @@ const STYLE_DIRECTIVE = [
   PaddingLeftDirective,
   PaddingRightDirective,
   PaddingTopDirective,
+  PositionDirective,
+  TextAlignDirective,
+  TextDecorationDirective,
+  TextShadowDirective,
+  VerticalAlignDirective,
   WidthDirective,
+  WritingModeDirective,
   ZIndexDirective
 ];
 

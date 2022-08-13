@@ -57,6 +57,12 @@ export class AppModule { }
 
 | CSS Properties          | Directives|
 | ---------------         |:---------:|
+| align-content           | ac        |
+| align-items             | ai        |
+| align-self              | as        |
+| color                   | c         |
+| cursor                  | cr        |
+| display                 | d         |
 | flex                    | fx        |
 | flex-basis              | fxb       |
 | flex-direction          | fxd       |
@@ -64,12 +70,16 @@ export class AppModule { }
 | flex-grow               | fxg       |
 | flex-shrink             | fxs       |
 | flex-wrap               | fxw       |
+| float                   | flt       |
 | font                    | fnt       |
 | font-family             | fntf      |
 | font-size               | fnts      |
 | font-style              | fntstl    |
 | font-weight             | fntw      |
 | height                  | h         |
+| justify-content         | jc        |
+| justify-items           | ji        |
+| justify-self            | js        |
 | margin                  | m         |
 | margin-block            | my        |
 | margin-block-end        | mye       |
@@ -81,6 +91,13 @@ export class AppModule { }
 | margin-left             | ml        |
 | margin-right            | mr        |
 | margin-top              | mt        |
+| max-height              | maxh      |
+| max-width               | maxw      |
+| min-height              | minh      |
+| min-width               | minw      |
+| overflow                | of        |
+| overflow-x              | ofx       |
+| overflow-y              | ofy       |
 | padding                 | p         |
 | padding-block           | py        |
 | padding-block-end       | pye       |
@@ -92,7 +109,13 @@ export class AppModule { }
 | padding-left            | pl        |
 | padding-right           | pr        |
 | padding-top             | pt        |
+| position                | pos       |
+| text-align              | ta        |
+| text-decoration         | td        |
+| text-shadow             | ts        |
+| vertical-align          | va        |
 | width                   | w         |
+| writing-mode            | wm        |
 | z-index                 | zi        |
 
 
