@@ -1,3 +1,23 @@
+import { TopDirective } from './directives/t/top/top.directive';
+import { RightDirective } from './directives/r/right/right.directive';
+import { LeftDirective } from './directives/l/left/left.directive';
+import { BottomDirective } from './directives/b/bottom/bottom.directive';
+import { BoxShadowDirective } from './directives/b/box-shadow/box-shadow.directive';
+import { BorderWidthDirective } from './directives/b/border-width/border-width.directive';
+import { BorderTopDirective } from './directives/b/border-top/border-top.directive';
+import { BorderStyleDirective } from './directives/b/border-style/border-style.directive';
+import { BorderRightDirective } from './directives/b/border-right/border-right.directive';
+import { BorderLeftDirective } from './directives/b/border-left/border-left.directive';
+import { BorderColorDirective } from './directives/b/border-color/border-color.directive';
+import { BorderBottomDirective } from './directives/b/border-bottom/border-bottom.directive';
+import { BorderDirective } from './directives/b/border/border.directive';
+import { BackgroundSizeDirective } from './directives/b/background-size/background-size.directive';
+import { BackgroundRepeatDirective } from './directives/b/background-repeat/background-repeat.directive';
+import { BackgroundPositionDirective } from './directives/b/background-position/background-position.directive';
+import { BackgroundImageDirective } from './directives/b/background-image/background-image.directive';
+import { BackgroundColorDirective } from './directives/b/background-color/background-color.directive';
+import { BackgroundAttachmentDirective } from './directives/b/background-attachment/background-attachment.directive';
+import { BackgroundDirective } from './directives/b/background/background.directive';
 import { VerticalAlignDirective } from './directives/v/vertical-align/vertical-align.directive';
 import { MinWidthDirective } from './directives/m/min-width/min-width.directive';
 import { MinHeightDirective } from './directives/m/min-height/min-height.directive';
@@ -59,11 +79,30 @@ import { NgModule } from '@angular/core';
 import { WidthDirective } from './directives/w/width/width.directive';
 import { MarginInlineEndDirective } from './directives/m/margin-inline-end/margin-inline-end.directive';
 import { JustifyItemsDirective } from './directives/j/justify-items/justify-items.directive';
+import { BorderRadiusDirective } from './directives/b/border-radius/border-radius.directive';
 
 const STYLE_DIRECTIVE = [
   AlignContentDirective,
   AlignItemsDirective,
   AlignSelfDirective,
+  BackgroundDirective,
+  BackgroundAttachmentDirective,
+  BackgroundColorDirective,
+  BackgroundImageDirective,
+  BackgroundPositionDirective,
+  BackgroundRepeatDirective,
+  BackgroundSizeDirective,
+  BorderDirective,
+  BorderBottomDirective,
+  BorderColorDirective,
+  BorderLeftDirective,
+  BorderRadiusDirective,
+  BorderRightDirective,
+  BorderStyleDirective,
+  BorderTopDirective,
+  BorderWidthDirective,
+  BottomDirective,
+  BoxShadowDirective,
   ColorDirective,
   CursorDirective,
   DisplayDirective,
@@ -84,6 +123,7 @@ const STYLE_DIRECTIVE = [
   JustifyContentDirective,
   JustifyItemsDirective,
   JustifySelfDirective,
+  LeftDirective,
   MarginDirective,
   MarginBlockDirective,
   MarginBlockEndDirective,
@@ -114,9 +154,11 @@ const STYLE_DIRECTIVE = [
   PaddingRightDirective,
   PaddingTopDirective,
   PositionDirective,
+  RightDirective,
   TextAlignDirective,
   TextDecorationDirective,
   TextShadowDirective,
+  TopDirective,
   VerticalAlignDirective,
   WidthDirective,
   WritingModeDirective,
